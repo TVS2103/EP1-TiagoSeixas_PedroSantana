@@ -4,7 +4,8 @@ programa = True
 while fichas > 0 and programa == True:
     pergunta = input("Vai apostar ou sair? ")
     if pergunta != "sair":
-        print ("Come Out")
+        fase = "Come Out"
+        print (fase)
         dado1 = randint(1,6)
         dado2 = randint(1,6)
         Pass_Line_Bet = int(input("Aposta quanto na Pass Pine Bet? "))
