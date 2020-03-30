@@ -20,7 +20,7 @@ while fichas > 0 and programa == True:
         if Pass_Line_Bet>0 and Field == 0 and Any_Craps == 0 and Twelve > 0
         if Pass_Line_Bet>0 and Field == 0 and Any_Craps>0 and Twelve == 0
         if Pass_Line_Bet>0 and Field == 0 and Any_Craps == 0 and Twelve == 0
-        if Pass_Line_Bet == 0 and Field>0 and Any_Craps>0 and Twelve>0:
+        if Pass_Line_Bet == 0 and Field>=0 and Any_Craps>=0 and Twelve>=0:
             if dado1 + dado2 == 2:
                 fichas += Field*2
                 fichas += Any_Craps*7
@@ -45,10 +45,3 @@ while fichas > 0 and programa == True:
                 fichas += Field*3
                 fichas += Any_Craps*7
                 fichas += Twelve*30
-        if Pass_Line_Bet==0 and Field>0 and Any_Craps==0 and Twelve>0
-        if Pass_Line_Bet==0 and Field>0 and Any_Craps>0 and Twelve==0
-        if Pass_Line_Bet==0 and Field==0 and Any_Craps>0 and Twelve>0
-        if Pass_Line_Bet==0 and Field>0 and Any_Craps==0 and Twelve==0
-        if Pass_Line_Bet==0 and Field==0 and Any_Craps==0 and Twelve>0
-        if Pass_Line_Bet==0 and Field==0 and Any_Craps>0 and Twelve==0
-        if Pass_Line_Bet==0 and Field==0 and Any_Craps==0 and Twelve==0
