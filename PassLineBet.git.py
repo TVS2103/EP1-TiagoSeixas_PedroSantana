@@ -80,7 +80,48 @@ while fichas > 0 and programa == True:
                 Point = dado1+dado2
                 fase = "Point"
                 print (fase)
-                
+                while programa2==True:
+                    dado1 = randint(1,6)
+                    dado2 = randint(1,6)
+                    Field = int(input("Aposta quanto na Field? "))
+                    Any_Craps = int(input("Aposta quanto na Any Craps? "))
+                    Twelve = int(input("Aposta quanto na Twelve? "))
+                    if dado1 + dado2 == 2:
+                        fichas += Field*2
+                        fichas += Any_Craps*7
+                        fichas -= Twelve
+                    elif dado1 + dado2 == 3:
+                        fichas += Field
+                        fichas += Any_Craps*7
+                        fichas -= Twelve
+                    elif dado1 + dado2 == 4:
+                        fichas += Field
+                        fichas -= Any_Craps
+                        fichas -= Twelve
+                    elif dado1+dado2 == 5 or 6 or 8:
+                        fichas += Pass_Line_Bet
+                        fichas -= Field
+                        fichas -= Any_Craps
+                        fichas -= Twelve
+                        programa2 = False
+                    elif dado1+dado2 == 7:
+                        fichas -= Pass_Line_Bet
+                        fichas -= Field
+                        fichas -= Any_Craps
+                        fichas -= Twelve
+                        programa2 = False
+                    elif dado1 + dado2 == 9 or 10:
+                        fichas += Field
+                        fichas -= Any_Craps
+                        fichas -= Twelve
+                    elif dado1 + dado2 == 11:
+                        fichas += Field
+                        fichas -= Any_Craps
+                        fichas -= Twelve
+                    elif dado1 + dado2 == 12:
+                        fichas += Field*3
+                        fichas += Any_Craps*7
+                        fichas += Twelve*30
             elif dado1+dado2 == 7:
                 fichas += Pass_Line_Bet
                 fichas -= Field
