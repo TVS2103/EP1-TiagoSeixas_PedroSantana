@@ -12,4 +12,19 @@ while fichas > 0 and programa == True:
         Field = int(input("Aposta quanto na Field? "))
         Any_Craps = int(input("Aposta quanto na Any Craps? "))
         Twelve = int(input("Aposta quanto na Twelve? "))
-        if Pass_Line_Bet>0 and Field>0 and Any_Craps>0 and Twelve>0:
+        if Pass_Line_Bet>0 and Field>0 and Any_Craps>0 and Twelve>0
+        if Pass_Line_Bet>0 and Field>0 and Any_Craps>0 and Twelve == 0
+        if Pass_Line_Bet>0 and Field>0 and Any_Craps == 0 and Twelve>0
+        if Pass_Line_Bet>0 and Field == 0 and Any_Craps>0 and Twelve>0
+        if Pass_Line_Bet>0 and Field>0 and Any_Craps == 0 and Twelve == 0
+        if Pass_Line_Bet>0 and Field == 0 and Any_Craps == 0 and Twelve > 0
+        if Pass_Line_Bet>0 and Field == 0 and Any_Craps>0 and Twelve == 0
+        if Pass_Line_Bet>0 and Field == 0 and Any_Craps == 0 and Twelve == 0
+        if Pass_Line_Bet == 0 and Field>0 and Any_Craps>0 and Twelve>0
+        if Pass_Line_Bet==0 and Field>0 and Any_Craps==0 and Twelve>0
+        if Pass_Line_Bet==0 and Field>0 and Any_Craps>0 and Twelve==0
+        if Pass_Line_Bet==0 and Field==0 and Any_Craps>0 and Twelve>0
+        if Pass_Line_Bet==0 and Field>0 and Any_Craps==0 and Twelve==0
+        if Pass_Line_Bet==0 and Field==0 and Any_Craps==0 and Twelve>0
+        if Pass_Line_Bet==0 and Field==0 and Any_Craps>0 and Twelve==0
+        if Pass_Line_Bet==0 and Field==0 and Any_Craps==0 and Twelve==0
