@@ -127,7 +127,14 @@ while fichas > 0 and programa == True:
                 fichas -= Field
                 fichas -= Any_Craps
                 fichas -= Twelve
-
+            elif dado1 + dado2 == 9 or 10:
+                fichas += Field
+                fichas -= Any_Craps
+                fichas -= Twelve
+                Point = dado1+dado2
+                fase = "Point"
+                print (fase)
+                
             elif dado1 + dado2 == 11:
                 fichas += Pass_Line_Bet
                 fichas += Field
