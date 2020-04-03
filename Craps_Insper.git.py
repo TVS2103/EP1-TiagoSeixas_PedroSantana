@@ -46,13 +46,11 @@ while fichas > 0 and programa == True:
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 3:
                         fichas += Field
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 4:
                         fichas += Pass_Line_Bet
                         fichas += Field
@@ -65,7 +63,6 @@ while fichas > 0 and programa == True:
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1+dado2 == 7:
                         fichas -= Pass_Line_Bet
                         fichas -= Field
@@ -78,19 +75,16 @@ while fichas > 0 and programa == True:
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 11:
                         fichas += Field
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 12:
                         fichas += Field*3
                         fichas += Any_Craps*7
                         fichas += Twelve*30
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
             elif dado1+dado2 == 5 or 6 or 8:
                 fichas -= Field
                 fichas -= Any_Craps
@@ -110,19 +104,16 @@ while fichas > 0 and programa == True:
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 3:
                         fichas += Field
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 4:
                         fichas += Field
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1+dado2 == 5 or 6 or 8:
                         fichas += Pass_Line_Bet
                         fichas -= Field
@@ -142,19 +133,16 @@ while fichas > 0 and programa == True:
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 11:
                         fichas += Field
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 12:
                         fichas += Field*3
                         fichas += Any_Craps*7
                         fichas += Twelve*30
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
             elif dado1+dado2 == 7:
                 fichas += Pass_Line_Bet
                 fichas -= Field
@@ -180,25 +168,21 @@ while fichas > 0 and programa == True:
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 3:
                         fichas += Field
                         fichas += Any_Craps*7
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 4:
                         fichas += Field
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1+dado2 == 5 or 6 or 8:
                         fichas -= Field
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1+dado2 == 7:
                         fichas -= Pass_Line_Bet
                         fichas -= Field
@@ -218,13 +202,11 @@ while fichas > 0 and programa == True:
                         fichas -= Any_Craps
                         fichas -= Twelve
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
                     elif dado1 + dado2 == 12:
                         fichas += Field*3
                         fichas += Any_Craps*7
                         fichas += Twelve*30
                         print ("Você tem",fichas,"fichas")
-                        programa2 = False
             elif dado1 + dado2 == 11:
                 fichas += Pass_Line_Bet
                 fichas += Field
